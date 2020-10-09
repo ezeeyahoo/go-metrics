@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -e
+set -x
 
 # check there are no formatting issues
 GOFMT_LINES=`gofmt -l . | wc -l | xargs`
