@@ -16,7 +16,7 @@ go:
 jobs:
     include:
         - arch: ppc64le
-          go: "1.5"
+          go: "1.15"
 
 script:
     - ./validate.sh
